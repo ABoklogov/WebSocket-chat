@@ -1,0 +1,19 @@
+{
+  "name": "chat-js-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "author": "Alexey Boklogov <Kashira87@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
